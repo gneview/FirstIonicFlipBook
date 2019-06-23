@@ -1,0 +1,24 @@
+<ion-header>
+  <ion-navbar>
+    <button ion-button menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+    <ion-title>My Ionic Flip Book</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+  <h3>Welcome to My Ionic Flip Book!</h3>
+
+  <p>
+    This is a compilation of some funny short stories.
+  </p>
+  <p>
+    Feel free to view my code on
+    <a href="http://www.github.com/gneview">Github.</a>
+  </p>
+  <br />
+  <br />
+  <button ion-button (click)="gotoList()">Next Page</button>
+  <p class="pgNum">Page : 1</p>
+</ion-content>

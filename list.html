@@ -1,0 +1,44 @@
+<ion-header>
+  <ion-navbar>
+    <button ion-button menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+    <ion-title>Table of Contents</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content>
+  <ion-list>
+    <div>
+      <button ion-item (click)="goBack()">Cover Page</button>
+    </div>
+    <div>
+      <button ion-item (click)="gotoHelicopter()">
+        Chapter 1 - Helicopter Ride
+      </button>
+    </div>
+    <div>
+      <button ion-item (click)="gotoPsychic()">
+        Chapter 2 - Psychic Daughter
+      </button>
+    </div>
+    <div>
+      <button ion-item (click)="gotoTricky()">Chapter 3 - Tricky Jar</button>
+    </div>
+    <div>
+      <button ion-item (click)="gotoSpeeding()">
+        Chapter 4 - Speeding Motorist
+      </button>
+    </div>
+    <div>
+      <button ion-item (click)="gotoPreacher()">
+        Chapter 5 - Preacher's Wife
+      </button>
+    </div>
+    <div><button ion-item (click)="gotoConclusion()">Conclusion</button></div>
+  </ion-list>
+
+  <button ion-button (click)="goBack()">Cover Page</button>
+  <button ion-button (click)="gotoHelicopter()">Next Page</button>
+  <p class="pgNum">Page : 2</p>
+</ion-content>
